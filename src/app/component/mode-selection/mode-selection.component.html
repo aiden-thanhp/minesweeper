@@ -1,0 +1,11 @@
+<div class="mode">
+    Mode: 
+    <span [ngClass]="this.mode == 0 ? 'text-1' : this.mode == 1 ? 'text-2' : 'text-3'">
+        {{this.mode == 0 ? 'Easy' : this.mode == 1 ? 'Medium' : 'Hard'}}
+    </span>
+    <div class="dropdown bg-primary">
+        <p (click)="this.onChoseMode(0)">Easy</p>
+        <p (click)="this.onChoseMode(1)">Medium</p>
+        <p (click)="this.onChoseMode(2)">Hard</p>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer {
+    font-size: .5em;
+    margin-top: 3em;
+    & span {
+        color: blue;
+        & a {
+            text-decoration: none;
+            color: blue;
+            transition: all .25s ease-in-out;
+            &:hover {
+                color: red
+            }
+        }
+    }
+}

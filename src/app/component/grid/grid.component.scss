@@ -1,0 +1,31 @@
+.cell {
+    width: 1em;
+    height: 1em;
+    border: 1.5px solid;
+    border-top-color: #ffffff;
+    border-right-color: #7B7B7B;
+    border-bottom-color: #7B7B7B;
+    border-left-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.red {
+    background-color: red;
+}
+
+.revealed {
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 80%;
+    text-align: center;
+    border: none;
+}
+
+.bomb-revealed {
+    display: inline-block
+}
+
+.d-none {
+    display: none;
+}

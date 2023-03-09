@@ -1,0 +1,17 @@
+<div class="play-wrapper shadow bg-secondary">
+    <div class="head">
+        <h3>Minesweeper</h3>
+        <app-timer></app-timer>
+    </div>
+    <div class="head">
+        <app-mode-selection></app-mode-selection>
+        <app-theme-switcher></app-theme-switcher>
+    </div>
+
+    <div class="playground">
+        <app-grid></app-grid>
+    </div>
+
+    <p class="warning">To flag: hold Shift and Click</p>
+    <p class="warning text-6">Total Bombs: {{ (this.$game | async).total == 100 ? '10' : (this.$game | async).total == 256 ? '40' : '99' }}</p>
+</div>

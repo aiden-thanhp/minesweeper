@@ -1,0 +1,41 @@
+.message {
+    position: fixed;
+    top: 45%;
+    left: 0;
+    height: 7em;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+    transition-delay: 1s;
+    & .btn {
+        // transition: all .5s ease-in-out;
+        transition-duration: .5s, .5s, .5s;
+        transition-delay: 2s, 2s, 0s;
+        transition-property: transform, opacity, color;
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    & .result {
+        transition: all .5s ease-in-out;
+        transition-delay: 2s;
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.on-message {
+    transform: translateX(0%);
+    opacity: 1;
+    & .btn, & .result {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    & .btn:hover {
+        color: rgb(255, 18, 18)
+    }
+}

@@ -1,0 +1,4 @@
+<div id="message" class="message bg-black">
+    <p class="result">{{ (this.$game | async).lose ? 'Loooooooser' : (this.$game | async).win ? 'Wiiiiiiiner' : '' }}</p>
+    <p class="btn cursor-pointer" (click)="this.onPlayAgain()">Play Again</p>
+</div>

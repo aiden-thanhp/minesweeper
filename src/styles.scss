@@ -1,1 +1,113 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    transition: all .25s ease-in-out;
+    font-family: "Press Start 2P";
+    .font-press-start {
+        font-family: "Press Start 2P";
+    }
+    .text-primary {
+        color: white;
+    }
+    .bg-primary {
+        background-color: rgb(100, 100, 100);
+    }
+    .bg-secondary {
+        background-color: rgb(4, 4, 30);
+    }
+    .shadow {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .cursor-pointer {
+        cursor: pointer;
+    }
+    .bg-revealed {
+        background-color: rgb(73, 73, 73);
+    }
+    .text-1 {
+        color: #6f86f6
+    } 
+    .text-2 {
+        color: #d5eec7
+    }
+    .text-3 {
+        color: #a68a88
+    }
+    .text-4 {
+        color: #b9b9fe
+    }
+    .text-5 {
+        color: #9f8180
+    }
+    .text-6 {
+        color: #8ec0c0
+    }
+    .text-7 {
+        color: #e47575
+    }
+    .text-8 {
+        color: #ae7e91
+    }
+    .bg-black {
+        background-color: black;
+    }
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.is-light {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    .bg-secondary {
+        background-color: rgb(203, 203, 203);
+    }
+    .bg-primary {
+        background-color: rgb(255, 255, 255);
+    }
+    .text-primary {
+        color: black;
+    }
+    .bg-revealed {
+        background-color: rgb(159, 158, 158);
+    }
+    .text-1 {
+        color: #0000FA
+    } 
+    .text-2 {
+        color: #4B802D
+    }
+    .text-3 {
+        color: #DB1300
+    }
+    .text-4 {
+        color: #202081
+    }
+    .text-5 {
+        color: #690400
+    }
+    .text-6 {
+        color: #457A7A
+    }
+    .text-7 {
+        color: #1B1B1B
+    }
+    .text-8 {
+        color: #7A7A7A
+    }
+    .bg-black {
+        background-color: rgb(153, 153, 153);
+    }
+    .text-center {
+        text-align: center;
+    }
+}
+
+.pointer-none {
+    pointer-events: none;
+}
