@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "dist/minesweeper",
+    "target": "minesweeper-979d9",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

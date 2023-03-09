@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "my-portfolio-496c6"
+  },
+  "targets": {
+    "my-portfolio-496c6": {
+      "hosting": {
+        "minesweeper-979d9": [
+          "minesweeper-979d9"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
